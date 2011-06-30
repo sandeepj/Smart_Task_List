@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/background"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:baselineAligned="false" 
+    android:orientation="vertical">
+   
+  	<TableLayout
+		android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+			<TableRow>
+			<TextView android:text=""
+			android:layout_width="10px" 
+    		android:layout_height="150px"/>
+    		</TableRow>
+    		
+    		<TableRow>
+    		<TextView android:text=""
+			android:layout_width="80px" 
+    		android:layout_height="20px"/>
+		<Button android:layout_height="wrap_content" 
+ 			android:text=""	
+ 			android:layout_width="wrap_content"
+			 android:background="@drawable/todo1" 	
+ 			android:id="@+id/todo" 
+ 			android:clickable="true">
+ 			</Button>
+ 			</TableRow>
+ 			</TableLayout>
+ 			<TableLayout
+		android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+			<TableRow>
+			<TextView android:text=""
+			android:layout_width="10px" 
+    		android:layout_height="20px"/>
+    		</TableRow>
+    		
+    		<TableRow>
+    		<TextView android:text=""
+			android:layout_width="80px" 
+    		android:layout_height="20px"/>
+		<Button android:layout_height="wrap_content" 
+ 			android:text=""	
+ 			android:layout_width="wrap_content"
+			 android:background="@drawable/tocall1" 	
+ 			android:id="@+id/tocall" 
+ 			android:clickable="true">
+ 			</Button>
+ 			</TableRow>
+ 			</TableLayout>
+ 			<TableLayout
+		android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+			<TableRow>
+			<TextView android:text=""
+			android:layout_width="10px" 
+    		android:layout_height="20px"/>
+    		</TableRow>
+    		
+    		<TableRow>
+    		<TextView android:text=""
+			android:layout_width="80px" 
+    		android:layout_height="20px"/>
+		<Button android:layout_height="wrap_content" 
+ 			android:text=""	
+ 			android:layout_width="wrap_content"
+			 android:background="@drawable/togo1" 	
+ 			android:id="@+id/togo" 
+ 			android:clickable="true">
+ 			</Button>
+ 			</TableRow>
+ 			</TableLayout>
+ 				<TableLayout
+		android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+			<TableRow>
+			<TextView android:text=""
+			android:layout_width="10px" 
+    		android:layout_height="20px"/>
+    		</TableRow>
+    		
+    		<TableRow>
+    		<TextView android:text=""
+			android:layout_width="80px" 
+    		android:layout_height="20px"/>
+		<Button android:layout_height="wrap_content" 
+ 			android:text=""	
+ 			android:layout_width="wrap_content"
+			 android:background="@drawable/calllist" 	
+ 			android:id="@+id/clist" 
+ 			android:clickable="true">
+ 			</Button>
+ 			</TableRow>
+ 			</TableLayout>
+ 			
+
+</LinearLayout>
+  

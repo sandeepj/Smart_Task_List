@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- row.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_height="wrap_content" 
+ android:gravity="left|center"
+ android:layout_width="wrap_content" 
+ android:background="#B0C4DE">
+
+<TableLayout
+		android:layout_width="wrap_content"
+    	android:layout_height="wrap_content">
+    	<TableRow> 
+    	<CheckedTextView
+		android:id="@+android/chk"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_vertical"
+		android:checkMark="?android:attr/listChoiceIndicatorMultiple" />
+ <TextView  
+ android:id="@+id/tname"
+ android:layout_width="30px"
+ android:layout_height="wrap_content" 
+ android:textColor="#FFFF00"
+ android:text="">
+ </TextView>
+ </TableRow>
+ <TableRow> 
+ <TextView  
+ android:layout_width="35px"
+ android:layout_height="wrap_content" 
+  android:textColor="#FFFF00"
+ android:text=""/>
+ <TextView  
+ android:layout_width="5px"
+ android:layout_height="wrap_content" 
+ android:textColor="#FFFF00"
+ android:text="due">
+  </TextView>
+  <TextView android:id="@+id/ddate" 
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content" 
+  android:textColor="#FFFF00"
+ android:text="">
+ </TextView>
+ </TableRow>
+ <TableRow>
+ <TextView  
+ android:layout_width="35px"
+ android:layout_height="wrap_content" 
+  android:textColor="#FFFF00"
+ android:text=""/>
+  <TextView  
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content" 
+ android:textColor="#FFFF00"
+ android:text=",">
+  </TextView>
+ <TextView android:id="@+id/time" 
+ android:layout_width="20px"
+ android:layout_height="wrap_content" 
+  android:textColor="#FFFF00"
+ android:text="">
+ </TextView>
+</TableRow>
+<TextView  
+ android:layout_width="65px"
+ android:layout_height="70px" 
+ android:textColor="#FFFF00"
+ android:text=""/>
+  
+ 
+    	<TableRow> 
+    	 <Button
+	android:id="@+id/del"
+	android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text ="Delete"/>
+    <TextView  
+ android:layout_width="65px"
+ android:layout_height="wrap_content" 
+ android:textColor="#FFFF00"
+ android:text="">
+  </TextView>
+    
+<Button
+	android:id="@+id/done"
+	android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text ="Done"/>
+</TableRow>
+</TableLayout>
+</LinearLayout>

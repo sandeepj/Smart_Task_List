@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- row.xml -->
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+    android:background="@drawable/background"
+   
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+   
+	
+    <TextView   
+    		 android:id="@+id/TextView01" 
+ 			 android:layout_width="20px"
+ 		     android:layout_height="60px"			     
+ 		     android:text="">
+ 	</TextView>
+	<TableLayout
+  			xmlns:android="http://schemas.android.com/apk/res/android"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content">
+  	<TableRow>
+  	 <TextView   
+    		  
+ 			 android:layout_width="180px"
+ 		     android:layout_height="wrap_content" 
+ 		   	android:textColor="#000000"
+ 		   	 android:paddingLeft="35px"
+ 		  
+		     android:text="To Do" />
+ 	
+ 	<TextView   
+    		 
+ 			 android:layout_width="10px"
+ 		     android:layout_height="10px" 
+ 		     android:gravity="left"
+ 				     
+ 		     android:text=""/>
+ 	 <TextView   
+    		 android:id="@+id/tname" 
+ 			 android:layout_width="180px"
+ 		     android:layout_height="wrap_content" 
+ 		   	android:textColor="#000000"
+ 		   	 android:padding="3dip"
+		     android:text="" />
+ 	</TableRow>
+ 	</TableLayout>
+ 	<TableLayout
+  			xmlns:android="http://schemas.android.com/apk/res/android"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content">
+ 	<TableRow>
+ 		<TextView   
+    		
+ 			 android:layout_width="180px"
+ 		     android:layout_height="wrap_content" 
+ 		  	 android:text="" />
+ 	<TextView   
+    		 android:id="@+id/tdesp"  
+ 			 android:layout_width="180px"
+ 		     android:layout_height="wrap_content" 
+ 		   	android:textColor="#000000"
+ 		   	android:text="" />
+		     </TableRow>
+  	</TableLayout>
+  	<TextView   
+    		android:layout_width="10px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" />
+  	<TableLayout
+  			xmlns:android="http://schemas.android.com/apk/res/android"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content">
+  	<TableRow>
+  	<TextView   
+    		 android:layout_width="180px"
+ 		     android:layout_height="wrap_content" 
+ 		   	android:textColor="#000000"
+ 		   	 android:paddingLeft="35px"
+ 		   	
+		  	android:text="Category">
+ 	</TextView>
+ 	<TextView   
+    		
+ 			 android:layout_width="10px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" /> 
+ 	<TextView   
+    		android:id="@+id/tcat" 
+ 			 android:layout_width="180px"
+ 		     android:layout_height="wrap_content" 
+ 		   	android:textColor="#000000"
+ 		   	 android:padding="3dip"
+		     android:text="" />
+ 	
+ 	</TableRow>
+  	</TableLayout>
+  
+  	<TableLayout
+  			xmlns:android="http://schemas.android.com/apk/res/android"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content">
+  	<TableRow>
+  	<TextView   
+    		  
+ 			 android:layout_width="180px"
+ 		     android:layout_height="wrap_content" 
+ 		   	android:textColor="#000000"
+ 		   	 android:paddingLeft="35px"
+ 		   	
+		  	android:text="Priority">
+ 	</TextView>
+ 	<TextView   
+    		
+ 			 android:layout_width="10px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" /> 
+ 	<TextView   
+    		 android:id="@+id/tpriority" 
+ 			 android:layout_width="180px"
+ 		     android:layout_height="wrap_content" 
+ 		   	android:textColor="#000000"
+ 		   	 android:padding="3dip"
+		     android:text="">
+ 	</TextView>
+ 	</TableRow>
+  	</TableLayout>
+  	<TableLayout
+  			xmlns:android="http://schemas.android.com/apk/res/android"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content">
+  	<TableRow>
+  	<TextView   
+    		  
+ 			android:layout_width="180px"
+ 		     android:layout_height="wrap_content" 
+ 		   	android:textColor="#000000"
+ 		   		 android:paddingLeft="35px"
+		  	android:text="Due">
+ 	</TextView>
+ 	<TextView   
+    		
+ 			 android:layout_width="10px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" /> 
+ <TextView   
+    		 android:id="@+id/due" 
+ 			 android:layout_width="180px"
+ 		     android:layout_height="wrap_content" 
+ 		   	android:textColor="#000000"
+ 		   	 android:padding="3dip"
+		     android:text="">
+ 	</TextView>
+ 	</TableRow>
+ 	<TableRow>
+  	  
+    			<TextView   
+    		  
+ 			android:layout_width="180px"
+ 		     android:layout_height="wrap_content" 
+ 		   	android:textColor="#000000"
+ 		   	 android:paddingLeft="35px"
+		  	android:text="Time">
+ 	</TextView>
+ 	<TextView   
+    		
+ 			 android:layout_width="10px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" /> 
+ 	<TextView   
+    		 android:id="@+id/time" 
+ 			 android:layout_width="180px"
+ 		     android:layout_height="wrap_content" 
+ 		   	android:textColor="#000000"
+ 		   	 android:padding="3dip"
+		     android:text="">
+ 	</TextView>
+ 	</TableRow>
+  	</TableLayout>
+  	<TextView   
+    		
+ 			 android:layout_width="10px"
+ 		     android:layout_height="20px" 
+ 		  	 android:text="" /> 
+  	<TableLayout
+  			xmlns:android="http://schemas.android.com/apk/res/android"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content">
+  	<TableRow>
+  	<TextView   
+    		
+ 			 android:layout_width="20px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" />
+  		 
+  		 <Button 
+				android:id="@+id/dedit" 
+				android:paddingLeft="35px"
+				android:background="@drawable/edit"
+				android:layout_height="40px" 
+				android:layout_width="wrap_content" />
+		    <TextView   
+    		 android:id="@+id/TextView01" 
+ 			 android:layout_width="15px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" />
+			 <Button 
+			 android:background="@drawable/delete"
+				android:id="@+id/ddelete"
+				android:layout_height="40px" 
+				android:layout_width="wrap_content" />
+  			 <TextView   
+    		 android:id="@+id/TextView01" 
+ 			 android:layout_width="15px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" />
+			 <Button 
+			 android:background="@drawable/back"
+				android:id="@+id/back"
+				android:layout_height="40px" 
+				android:layout_width="wrap_content" />
+  		</TableRow>	
+  		
+  		</TableLayout>
+  	</LinearLayout>
+  
+  

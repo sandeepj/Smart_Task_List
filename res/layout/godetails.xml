@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="#778899"
+ android:orientation="vertical" android:layout_width="fill_parent"
+ android:layout_height="fill_parent">
+ 
+ <TextView 
+ android:layout_width="fill_parent" 
+ android:layout_height="wrap_content" 
+ android:textStyle="bold" 
+ android:text="select option" />
+ 
+ <RadioGroup android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:orientation="vertical"
+ android:id="@+id/QueGroup1">
+ 
+ <RadioButton android:checked="false"
+ android:id="@+id/opt1" 
+ android:textColor="#FFFFFF"
+ android:text=""/>
+ 
+ <RadioButton android:checked="false"
+ android:id="@+id/opt2" 
+ android:textColor="#FFFFFF"
+ android:text="Enter Manually   :-"/>
+ </RadioGroup>
+ <TableLayout
+		android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+    	<TableRow>
+    	
+    <TextView android:id="@+id/cname"
+ android:layout_width="110px"
+android:layout_height="wrap_content"
+ android:textSize="13px"
+android:textColor="#FFFFFF"
+ android:text="Contact name:-"/>
+ 
+<EditText android:id="@+id/ed1"
+	android:layout_width="100px"
+	android:layout_height="wrap_content"/>
+	</TableRow>
+	
+	<TableRow>
+ 
+ <TextView android:id="@+id/cno"
+ android:layout_width="110px"
+ android:layout_height="wrap_content"
+ android:textSize="13px"
+android:textColor="#FFFFFF"
+ android:text="Contact No:-"/>
+ 
+ <EditText android:id="@+id/ed1"
+	android:layout_width="100px"
+	android:layout_height="wrap_content"/>
+ </TableRow>
+ <TextView android:text=""
+				android:textSize="10px"
+				android:layout_width="65px"
+    			android:layout_height="wrap_content"/>
+ 
+
+</TableLayout>
+<TableLayout
+		android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+    	<TableRow>
+    	<TextView android:text=""
+				android:textSize="10px"
+				android:layout_width="65px"
+    			android:layout_height="wrap_content"/>
+ 
+ <Button android:layout_width="75px"
+ android:layout_height="wrap_content" 
+ android:textColor="#FFFFFF"
+ android:text="OK"
+ android:gravity="center_vertical"
+ android:id="@+id/selected"/>
+ </TableRow>
+ </TableLayout>
+ 
+</LinearLayout>

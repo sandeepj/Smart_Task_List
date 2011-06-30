@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- row.xml -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+    android:background="@drawable/background"
+   	android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+   
+         <TextView   
+    		 android:id="@+id/TextView01" 
+ 			 android:layout_width="20px"
+ 		     android:layout_height="100px"			     
+ 		     android:text="">
+ 	</TextView>
+ 
+	<TableLayout
+  			xmlns:android="http://schemas.android.com/apk/res/android"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content">
+  			
+  	<TableRow>
+  	
+  	 <TextView   
+    		 android:id="@+id/tname" 
+ 			 android:layout_width="80px"
+ 		     android:layout_height="wrap_content" 
+ 		   	android:textColor="#000000"
+ 		   	 android:paddingLeft="30px"
+		     android:text="Task Name:"
+		      />
+	 <EditText android:id="@+id/etname"
+	android:layout_width="200px"
+	android:layout_height="wrap_content"/>
+		    />
+	  </TableRow>
+	    <TextView   
+    		 android:id="@+id/TextView01" 
+ 			 android:layout_width="10px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" />
+	  <TableRow>
+	 
+	   <TextView   
+    		 android:id="@+id/tdescp" 
+ 			 android:layout_width="80px"
+ 		     android:layout_height="wrap_content" 
+ 		   	android:textColor="#000000"
+ 		   	 android:paddingLeft="30px"
+		     android:text="Task Description :" />
+	  <EditText android:id="@+id/etdescp"
+	android:layout_width="200px"
+	android:layout_height="wrap_content"/>
+	  </TableRow>
+	</TableLayout>
+	 <TextView   
+    		 android:id="@+id/TextView01" 
+ 			 android:layout_width="10px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" />
+ 		  	 <TableLayout
+  			xmlns:android="http://schemas.android.com/apk/res/android"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content">
+  		<TableRow>
+  			<TextView   
+    		 	android:id="@+id/ttype" 
+ 			 	android:layout_width="100px"
+ 		     	android:layout_height="wrap_content" 
+ 		   		android:textColor="#000000"
+ 		   		 	 android:paddingLeft="30px"
+ 		   		
+		    	 android:text="Category:" />
+  			
+ 			<Spinner 
+             android:id="@+id/category"
+             android:layout_width="200px"
+              android:layout_height="wrap_content"  />
+           </TableRow>
+           </TableLayout>
+            <TextView   
+    		 android:id="@+id/TextView01" 
+ 			 android:layout_width="10px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" />
+ 		  	 <TableLayout
+  			xmlns:android="http://schemas.android.com/apk/res/android"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content">
+  		<TableRow>
+  	<TextView android:id="@+id/pcont" 
+  			
+  			android:layout_width="100px" 
+  			android:paddingLeft="30px"
+  			android:textColor="#000000" 
+  			android:text="select contacts" 
+  			android:layout_height="wrap_content">
+  			</TextView>
+  	
+  <EditText android:id="@+id/esrch"
+	android:layout_width="150px"
+	android:layout_height="wrap_content"/>
+		<Button android:layout_height="wrap_content" 
+ 				android:layout_width="25px"
+			 	android:background="@drawable/search" 	
+ 				android:id="@+id/search" 
+ 				android:clickable="true"/>  			
+</TableRow>
+           </TableLayout>
+            <TextView   
+    		 android:id="@+id/TextView01" 
+ 			 android:layout_width="10px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" />
+ 		  	 <TableLayout
+  			xmlns:android="http://schemas.android.com/apk/res/android"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content">
+  			
+		<TableRow>
+		<ListView android:id="@+id/list"
+			android:background="#000000"
+			android:layout_width="300px"
+ 			android:layout_height="250px" />
+		
+		</TableRow>
+		
+	</TableLayout>
+	<TextView   
+    		 android:id="@+id/TextView01" 
+ 			 android:layout_width="10px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" />
+ 		  	 <TableLayout
+  			xmlns:android="http://schemas.android.com/apk/res/android"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content">
+  		<TableRow>
+  			
+    	<TextView 
+ android:layout_width="80px"
+android:layout_height="wrap_content"
+ 
+android:textColor="#000000"
+ android:paddingLeft="30px"
+ android:text="Contact name:-"/>
+ 
+<EditText android:id="@+id/ecname"
+	android:layout_width="150px"
+	android:layout_height="wrap_content"/>
+	</TableRow>
+	<TableRow>
+ 
+ <TextView android:id="@+id/Tv1"
+ android:layout_width="80px"
+ android:layout_height="wrap_content"
+
+  android:paddingLeft="30px"
+android:textColor="#000000"
+ android:text="Contact No:-"/>
+ 
+ <EditText android:id="@+id/ecnumb"
+	android:layout_width="200px"
+	android:layout_height="wrap_content"/>
+ </TableRow>
+	
+           </TableLayout>
+           
+	
+ <TextView   
+    		 android:id="@+id/TextView01" 
+ 			 android:layout_width="10px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" />
+
+ <TextView   
+    		 android:id="@+id/TextView01" 
+ 			 android:layout_width="10px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" />
+	<TableLayout
+  			xmlns:android="http://schemas.android.com/apk/res/android"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content">
+  			
+  <TableRow>
+    <TextView   
+    		 android:id="@+id/TextView01" 
+ 			 android:layout_width="8px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" />
+      <TextView android:id="@+id/tpr" 
+      android:layout_width="60px" 
+      android:text="Priority:" 
+      android:paddingLeft="10px"
+      android:layout_height="wrap_content" 
+      android:textColor="#000000">
+      </TextView><!--
+	  <TextView   
+    		 android:id="@+id/TextView01" 
+ 			 android:layout_width="10px"
+ 		     android:layout_height="20px" 
+ 		  	 android:text="" />
+--><RadioGroup android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:orientation="horizontal"
+			android:id="@+id/rg">	 
+ 	<RadioButton 
+ 			android:layout_height="wrap_content" 
+ 			android:layout_width="30px" 
+ 			android:id="@+id/rhigh" 
+ 			android:checked="false">
+ 	</RadioButton>
+ 	<TextView 
+ 		  
+    		 android:id="@+id/TextView01" 
+ 			 android:layout_width="5px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" />
+ 	
+ 	<TextView 
+ 	 		android:id="@+id/TextView01" 
+ 	 		android:layout_height="25px" 
+ 	 		android:layout_width="35px" 
+ 	 		android:background="@drawable/high">
+ 	 </TextView>
+ 	 <TextView   
+    		 android:id="@+id/TextView01" 
+ 			 android:layout_width="5px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" />
+ 	
+ <RadioButton 
+ 			android:layout_height="wrap_content" 
+ 			android:layout_width="35px" 
+ 			android:id="@+id/rmed" 
+ 			android:checked="false">
+ 	</RadioButton>
+ 	<TextView   
+    		 android:id="@+id/TextView01" 
+ 			 android:layout_width="5px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" />
+ 	
+ 	<TextView 
+ 	 		android:id="@+id/TextView01" 
+ 	 		android:layout_height="25px" 
+ 	 		android:layout_width="35px" 
+ 	 		android:background="@drawable/med">
+ 	 </TextView>
+ 	 <TextView   
+    		 android:id="@+id/TextView01" 
+ 			 android:layout_width="5px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" />
+ 	  <RadioButton 
+ 			android:layout_height="wrap_content" 
+ 			android:layout_width="35px" 
+ 			android:id="@+id/rlow" 
+ 			android:checked="false">
+ 	</RadioButton>
+ 	<TextView   
+    		 android:id="@+id/TextView01" 
+ 			 android:layout_width="5px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" />
+ 	
+ 	<TextView 
+ 	 		android:id="@+id/TextView01" 
+ 	 		android:layout_height="25px" 
+ 	 		android:layout_width="35px" 
+ 	 		android:background="@drawable/low">
+ 	 </TextView><!--
+ 	 <TextView   
+    		 android:id="@+id/TextView01" 
+ 			 android:layout_width="10px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" />
+--></RadioGroup>
+</TableRow>
+</TableLayout>
+  <TextView   
+    		 android:id="@+id/TextView01" 
+ 			 android:layout_width="20px"
+ 		     android:layout_height="20px" 
+ 		  	 android:text="" /><!--
+
+             <TextView   
+    		 android:id="@+id/TextView01" 
+ 			 android:layout_width="10px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" />
+--><TableLayout
+  			xmlns:android="http://schemas.android.com/apk/res/android"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content">
+           
+  
+  <TableRow>
+  			
+ 		<Button android:id="@+id/pickDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      
+        android:background="@drawable/set_date"/>
+        
+         <TextView android:id="@+id/dateDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text=""/>
+        
+        <TextView   
+    		 android:id="@+id/TextView01" 
+ 			 android:layout_width="5px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" />
+        
+      
+       
+    <Button android:id="@+id/pickTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      
+        android:background="@drawable/set_time"/>
+        
+        <TextView android:id="@+id/timeDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        android:textColor="#000000"
+        android:text=""/>
+       
+       </TableRow>
+</TableLayout>
+  <TextView   
+    		 android:id="@+id/TextView01" 
+ 			 android:layout_width="10px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" />
+<TableLayout
+  			xmlns:android="http://schemas.android.com/apk/res/android"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content">
+  	<TableRow>
+  	
+  		  <TextView   
+    		 android:id="@+id/TextView01" 
+ 			 android:layout_width="60px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" />
+  		 <Button 
+				android:id="@+id/ccancel" 
+				android:layout_height="40px" 
+				android:layout_width="80px" 
+				android:background="@drawable/cancel"/>
+		    <TextView   
+    		 android:id="@+id/TextView01" 
+ 			 android:layout_width="45px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" />
+			 <Button 
+				android:id="@+id/cdone" 
+				android:layout_height="40px" 
+				android:layout_width="80px" 
+				android:background="@drawable/done"/>
+  			</TableRow>	
+  		
+  		</TableLayout>
+  	<ExpandableListView
+      android:id="@android:id/list"
+      android:background="#000000"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" /> 	
+</LinearLayout>
+</ScrollView>
